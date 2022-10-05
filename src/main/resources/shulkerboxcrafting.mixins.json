@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "iafenvoy.shulkerboxcrafting.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "CraftingInventoryAccessor",
+    "RecipeManagerMixin",
+    "ShulkerBoxBlockEntityMixin",
+    "ShulkerBoxSlotMixin"
+  ]
+}

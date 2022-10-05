@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "shulkerboxcrafting",
+  "version": "1.0.0",
+  "name": "Shulker Box Crafting",
+  "description": "",
+  "authors": [
+    "IAFEnvoy"
+  ],
+  "license": "GPL 3.0",
+  "environment": "*",
+  "entrypoints": {
+    "server": [
+      "iafenvoy.shulkerboxcrafting.ShulkerBoxCrafting"
+    ],
+    "modmenu":[
+      "iafenvoy.shulkerboxcrafting.compat.ModMenu"
+    ]
+  },
+  "mixins": [
+    "shulkerboxcrafting.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=8"
+  }
+}
